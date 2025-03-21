@@ -1,0 +1,9 @@
+The fetchers for our bggle game are as follow:
+
+First we add a tome alert – when the time is under 30 sec, the time background flash in red to stress and alert the player.
+
+Next we added a feedback label which present a string feedback after finding a word. the feedback is according to the length of the founded word, and for each length there is a list of strings which we choose from it randomly.
+
+ Third we established a hint button which present the player a part of a valid path. It randomize a size between 1 to 6, then find a path with a length of the number. Next it randomize again a number between 1 to the length of the path and eventually cut the list path to the length of the chosen number and flash it on the board.
+
+
